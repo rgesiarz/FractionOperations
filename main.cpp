@@ -83,19 +83,19 @@ int main() {
 
     // Dodawanie ułamków
     Ulamek suma = dodajUlamki(u1, u2);
-    std::cout << "Suma: " << suma.licznik << "/" << suma.mianownik << std::endl;
+    cout << "Suma: " << suma.licznik << "/" << suma.mianownik << std::endl;
 
     // Odejmowanie ułamków
     Ulamek roznica = odejmijUlamki(u1, u2);
-    std::cout << "Roznica: " << roznica.licznik << "/" << roznica.mianownik << std::endl;
+    cout << "Roznica: " << roznica.licznik << "/" << roznica.mianownik << std::endl;
 
     // Mnożenie ułamków
     Ulamek iloczyn = pomnozUlamki(u1, u2);
-    std::cout << "Iloczyn: " << iloczyn.licznik << "/" << iloczyn.mianownik << std::endl;
+    cout << "Iloczyn: " << iloczyn.licznik << "/" << iloczyn.mianownik << std::endl;
 
     // Dzielenie ułamków
     Ulamek iloraz = podzielUlamki(u1, u2);
-    std::cout << "Iloraz: " << iloraz.licznik << "/" << iloraz.mianownik << std::endl;
+    cout << "Iloraz: " << iloraz.licznik << "/" << iloraz.mianownik << std::endl;
 
     return 0;
 }
